@@ -101,6 +101,3 @@ docker tag meu-projeto-web seu-usuario/meu-projeto-web:v1.0
 docker push seu-usuario/meu-projeto-web:v1.0
 ```
 
-Esses passos simples permitirão que você suba suas imagens Docker para o Docker Hub, facilitando o compartilhamento e a implantação em diferentes ambientes 🚀
-
-
