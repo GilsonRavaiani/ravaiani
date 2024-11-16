@@ -56,5 +56,51 @@ CMD ["nginx", "-g", "daemon off;"]
 4. **Acesse seu Site**:
    - Abra seu navegador e vá para `http://localhost:8080` para ver seu site em ação.
 
-Este `Dockerfile` simples utiliza o Nginx para servir seus arquivos HTML, CSS e JavaScript. Se precisar de mais alguma coisa ou tiver alguma dúvida, estou aqui para ajudar! 🚀
+Este `Dockerfile` simples utiliza o Nginx para servir seus arquivos HTML, CSS e JavaScript 🚀
+
+
+## Após a criação da imagem subi para o Docker Hub com a ajuda do Copilot:
+
+Subir uma imagem para o Docker Hub envolve alguns passos. Aqui está um guia passo-a-passo para te ajudar:
+
+### Passos para Subir uma Imagem para o Docker Hub
+
+1. **Faça Login no Docker Hub**:
+   - No terminal, faça login na sua conta do Docker Hub usando o comando:
+     ```bash
+     docker login
+     ```
+   - Insira seu nome de usuário e senha quando solicitado.
+
+2. **Tagueie a Imagem**:
+   - Antes de subir a imagem, você precisa tagueá-la com o seu repositório do Docker Hub. Supondo que sua imagem se chame `meu-projeto-web`, use o comando:
+     ```bash
+     docker tag meu-projeto-web seu-usuario/meu-projeto-web:v1.0
+     ```
+   - Substitua `seu-usuario` pelo seu nome de usuário do Docker Hub e `v1.0` pela versão da sua imagem.
+
+3. **Suba a Imagem**:
+   - Use o comando `docker push` para subir a imagem para o Docker Hub:
+     ```bash
+     docker push seu-usuario/meu-projeto-web:v1.0
+     ```
+
+4. **Verifique no Docker Hub**:
+   - Vá até o [Docker Hub](https://hub.docker.com/) e verifique se sua imagem foi subida corretamente. Você deve vê-la listada no seu repositório.
+
+### Exemplo Completo:
+
+```bash
+# Faça login no Docker Hub
+docker login
+
+# Tagueie a imagem
+docker tag meu-projeto-web seu-usuario/meu-projeto-web:v1.0
+
+# Suba a imagem
+docker push seu-usuario/meu-projeto-web:v1.0
+```
+
+Esses passos simples permitirão que você suba suas imagens Docker para o Docker Hub, facilitando o compartilhamento e a implantação em diferentes ambientes 🚀
+
 
