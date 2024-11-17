@@ -63,6 +63,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Este `Dockerfile` simples utiliza o Nginx para servir seus arquivos HTML, CSS e JavaScript 🚀
 
+### Precisamos adequar a resposta a nossa necessidade
 
 ## Após a criação da imagem subi para o Docker Hub com a ajuda do Copilot:
 
