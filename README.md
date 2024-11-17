@@ -106,3 +106,4 @@ docker push seu-usuario/meu-projeto-web:v1.0
 Conficguração ACR
 
 ## Criação WEB APP
+## 
