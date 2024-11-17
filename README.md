@@ -1,4 +1,5 @@
 # ravaiani
+
 Testando criar uma imagem pessoal no docker utilizando minha página pessoal!
 
 #Iniciando projeto!
@@ -12,6 +13,8 @@ Entrar na pasta do repositório
 No VScode criar o arquivo Docker (Configurações no código)
 
 Utilizando o COPILOT pesquisei o passo a passo apresentando o meu código
+
+![Construir Image Docker](/Readme/Copilot.jpg)
 
 Informei meu site pessoal com HTML. CSS e JS
 
