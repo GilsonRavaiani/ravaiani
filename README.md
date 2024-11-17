@@ -14,11 +14,11 @@ No VScode criar o arquivo Docker (Configurações no código)
 
 Utilizando o COPILOT pesquisei o passo a passo apresentando o meu código
 
-![Construir Image Docker](/Readme/Copilot.jpg)
-
 Informei meu site pessoal com HTML. CSS e JS
 
 Segue resposta e editei conforme minha necessidade.
+
+![Construir Image Docker](/Readme/Copilot.jpg)
 
 Pedi ajuda ao criar o arquivo Docker: Crie um arquivo docker para meu codigo
 
