@@ -101,3 +101,5 @@ docker tag meu-projeto-web seu-usuario/meu-projeto-web:v1.0
 docker push seu-usuario/meu-projeto-web:v1.0
 ```
 
+## Vamos subir a imagem agora para o Azure Container Register (ACR)
+
