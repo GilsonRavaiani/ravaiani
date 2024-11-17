@@ -103,3 +103,7 @@ docker push seu-usuario/meu-projeto-web:v1.0
 
 ## Vamos subir a imagem agora para o Azure Container Register (ACR)
 
+Conficguração ACR
+
+## Criação WEB APP
+## 
