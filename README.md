@@ -46,7 +46,7 @@ CMD ["nginx", "-g", "daemon off;"]
      ```bash
      docker build -t meu-projeto-web .
      ```
-![Construir Image Docker](ravaiani/Readme/Construir_Image_Docker.jpg)
+![Construir Image Docker][/Readme/Construir_Image_Docker.jpg]
 
 
 3. **Execute o Contêiner Docker**:
@@ -109,3 +109,5 @@ Conficguração ACR
 
 ## Criação WEB APP
 ## 
+
+[def]: /root/ravaiani/Readme/Construir_Image_Docker.jpg
